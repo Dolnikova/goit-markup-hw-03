@@ -11,7 +11,7 @@
     --footer-list-contacts-color: rgba(255, 255, 255, 0.6);
     --hero-button-color: rgba(0, 0, 0, 0.15);
     --hero-name-color: rgba(0, 0, 0, 0.25);
-    --after-filtre: #F5F4FA;
+    --after-filtre-color: #F5F4FA;
 }
 * {
     box-sizing: border-box;
@@ -43,6 +43,8 @@ ul {
 }
 img {
     display: block;
+    max-width: 100%;  
+    height: auto;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -208,9 +210,9 @@ li {
    
 }
 .our-command-section {
-    background-color: var(--after-filtre);
-    max-width: 1600px;
-    display: contents ;
+    background-color: var(--after-filtre-color);
+    /* max-width: 1600px; */
+    /* display: contents ; */
     /* display: flex; */
 }
 .command-list {
@@ -225,17 +227,11 @@ li {
 .command-block {
     padding top: 50px;
     padding-bottom: 94px;
-    /* :  30px 94px 0; */
 }
 .command-block:not(:last-child) {
     padding-left: 30px;
 }
-/* .command-block:first-child {
-    padding-left: 215px;
-}
-.command-block:last-child {
-    padding-right: 215px;
-} */
+
 .description {
     position: absolute;
     width: 1px;
@@ -332,6 +328,9 @@ li {
 .filtre-menu-list:not(:last-child) {
     margin-right: 8px;
 }
+.after-filtre-text-box {
+    padding: 20px 24px;
+}
 .section-our-work {
     padding-bottom: 60px;
     margin: 0;
@@ -353,7 +352,7 @@ li {
 .after-filtre {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
+    /* margin-left: -30px; */
 
 }
 .after-filtre-item {
@@ -392,7 +391,7 @@ li {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .post-filter-list {
     text-decoration: none;
