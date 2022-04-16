@@ -225,7 +225,7 @@ li {
     margin-right: 30px;
 } 
 .command-block {
-    padding top: 50px;
+    padding-top: 50px;
     padding-bottom: 94px;
 }
 .command-block:not(:last-child) {
