@@ -73,6 +73,9 @@ body {
     text-decoration: none;
     /* margin-bottom: 20px;  */
 } 
+.logo-footer {
+   margin-bottom: 20px; 
+}
 li {
     list-style-type: none;
 }
